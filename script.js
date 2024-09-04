@@ -3,7 +3,7 @@ const canvas = document.querySelector('.video-scrolling');
 const context = canvas.getContext('2d');
 
 const currentFrame = index => (
-    `./images/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`
+    `/videoplay-onscroll2/images/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`
 )
 
 const frameCount = 163;
