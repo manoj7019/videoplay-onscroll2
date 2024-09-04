@@ -4,6 +4,7 @@ const context = canvas.getContext('2d');
 
 const currentFrame = index => (
     `/videoplay-onscroll2/images/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`
+    // `/images/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`
 )
 
 const frameCount = 163;
